@@ -13,6 +13,13 @@ nav{
   justify-content: space-between;
   background-color: cadetblue;
 }
+main{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .logo{
     width: 100px;
 }
@@ -34,7 +41,6 @@ text-decoration: none;
 }
 .hero-content{
     display: flex;
-    background-color: rgb(87, 116, 173);
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -44,27 +50,67 @@ text-decoration: none;
 .btn-primary{
     text-decoration: none;
     color: white;
-    background-color: rgb(121, 158, 237);
-    font-size: 20px;
-    width: 89px;
-    height: 40px;
-    padding: 8px 16px;
+    background-color: rgb(34, 90, 210);
+    font-size: 16px;
+    text-wrap: nowrap;
+    width: fit-content;
+    padding: 12px 24px;
     border-radius: 99px;
     box-shadow: 0 0 30px #00640038;
 }
-.image{
-
-    width: 400px;
-    border-radius: 40px, 40px, 40px, 40px;
-}
-.flex {
-    display: flex;
-   
-}
-.centre{
-    display: flex;
-    justify-content: space-around;
-    
-    
+.container{
+    padding: 60px 0;
+    max-width: 800px;
 
 }
+.presentation{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    .presentation-content{
+    }
+    img{
+    width: 50%;}
+}
+
+.services-card-wrapper{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    p{
+        background-color: rgb(17, 88, 151);
+        width: 141px;
+        text-align: center;
+        align-content: center;
+        padding: 6px;
+        border-radius: 4px;
+        box-shadow: 0 0 20px #2cb4891c;
+       color: rgb(162, 178, 173);
+
+    }
+}
+
+
+.mes-rs{
+    display: flex;
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 900px) {
+    article {
+      display: flex;
+    }
+ }
+ contenair-h{
+display: flex;
+justify-content: space-between;
+
+ }
