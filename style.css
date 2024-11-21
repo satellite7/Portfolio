@@ -1,17 +1,35 @@
 *{
-    margin: 0;
-}
+    margin: 0; 
+    margin: 4px;
+    padding: revert;
+} 
 
 body{
-    background-color: cadetblue;
+    /* background-color: #65a05f; */
+    background: rgb(28,178,33);
+    background: linear-gradient(90deg, rgba(28,178,33,0.09771241260175945) 0%, rgba(62,106,71,1) 0%, rgba(108,121,80,0.9100373425737482) 64%);
 
 }
+
+h1{ 
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+    
+    
+
 nav{
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  background-color:cadetblue;
+  background-color:rgb(14, 18, 18);
+  position: fixed; /*pour que ça ne bouge pas  */
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 main{
     padding-left: 40px;
@@ -19,10 +37,10 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} 
 .logo{
-    width: 100px;
-    border-radius: 90px;
+    width: 10%;
+    
 }
 .navlinks{
   width: 80%;
@@ -30,7 +48,7 @@ main{
   justify-content: space-evenly;
   text-decoration: none;
   color:white;
-  background-color: rgb(220, 140, 74);
+  background-color: rgb(15, 15, 13);
   font-size: 16px;
   border-radius: 90px;
   padding: 12px 24px;
@@ -41,12 +59,13 @@ main{
 
 .navlink{
  text-decoration: none;
+ color: #6a713c;
 }
 
 .hero{
     display: flex;
     justify-content: center;
-    background-color: cadetblue;
+    /* background-color: #65a05f; */
     height: 80vh;
     align-items: center;
 }
@@ -60,8 +79,8 @@ main{
 }
 .btn-primary{
     text-decoration: none;
-    color: white;
-    background-color: #e9a654;
+    color: #c6b47e;
+    background-color: #427741;
     font-size: 16px;
     text-wrap: nowrap;
     width: fit-content;
@@ -82,7 +101,7 @@ main{
     justify-content: center;
     .presentation-content{
     }
-    img{
+   img{
     width: 50%;}
 }
 
@@ -91,7 +110,7 @@ main{
     margin-top: 40px;
     justify-content: space-between;
     p{
-        background-color: #522b0f;
+        background-color: #527947;
         width: 141px;
         text-align: center;
         align-content: center;
@@ -109,14 +128,30 @@ main{
   display: flex;
   gap: 100px;
   justify-content: space-between;
-  padding: 60px 0;
+  /* padding: 60px 0; */
+  margin: -46px;
+  padding: 129px 0;
   /* background-color: #187c80; */
   gap: 56px;
-  margin: 1px;
+  /* margin: 1px; */
   padding: 94px 0;
-  max-width: 849px;
+  max-width: 90%;
+  /* background: rgb(28,178,33);
+  background: linear-gradient(90deg, rgba(28,178,33,0.09771241260175945) 0%, rgba(62,106,71,1) 0%, rgba(108,121,80,0.9100373425737482) 64%); */
   
-  }
+
+
+  background: linear-gradient(90deg, rgba(28,178,33,0.09771241260175945) 0%, rgb(106, 97, 62) 0%, rgb(23, 70, 39) 64%);
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  display: flex;
+  align-items: center;
+  padding-left: 93px;
+  padding-right: 114px;
+
+
+ 
+}
 .mes-rs{
 
     width: 40px;
@@ -137,15 +172,15 @@ main{
 
 
 
-
-
 /* @media screen and (min-width: 900px) {
     article {
       display: flex;
     } */
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 
  
 
