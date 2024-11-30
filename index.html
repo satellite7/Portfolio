@@ -18,18 +18,19 @@
 
 <body>
     <!-- barre de navigation -->
-    <nav>
-        <img src="assets/logo.png" alt="logo" class="logo">
-        <div class="navlinks">
-            <a href="#Qui suis-je.." class="navlink">Présentation</a>
-            <a href="#Service" class="navlink">Service</a>
-            <a href="#Mes réalisations" class="navlink">Mes réalisations</a>
-            <!-- <a href="" class="navlink">Faqs</a> -->
-            <a href="#Contact" class="navlink" >Contacts</a>
-        </div>
-    </nav>
+
     <!-- hero section  -->
     <header class="hero" >
+        <nav>
+            <img src="assets/logo.png" alt="logo" class="logo">
+            <div class="navlinks">
+                <a href="#Qui suis-je.." class="navlink">Présentation</a>
+                <a href="#Service" class="navlink">Service</a>
+                <a href="#Mes réalisations" class="navlink">Mes réalisations</a>
+                <!-- <a href="" class="navlink">Faqs</a> -->
+                <a href="#Contact" class="navlink" >Contacts</a>
+            </div>
+        </nav>
         <div class="hero-content">
             <h1>Brenda BEYENE</h1>
             <h2>Ingénieure en informatique</h2>
@@ -47,7 +48,8 @@
         <section class="presentation container">
             <div class="presentation-content">
                 <h2  id="Service">Qui suis-je..?</h2>
-                <p> Brenda BEYENE, informaticienne talentueuse et passionnée, excelle 
+                <p> 
+                    Brenda BEYENE, informaticienne talentueuse et passionnée, excelle 
                     dans la résolution de problèmes complexes grâce à sa maîtrise des 
                     langages de programmation et des technologies émergentes. Curieuse
                     et créative, elle adore explorer l'intelligence artificielle et 
@@ -61,14 +63,13 @@
                 </p>
             </div>
 
-            <div id="image" ><img src="assets/belle image d'informaticienne.jpeg" alt="" >
-             </div>
-            <!--Je dois remplacer cette image par l'image d'une informaticienne-->
-           
+            <div id="image">
+                <img src="assets/belle image d'informaticienne.jpeg" alt="" >
+            </div>
         </section> 
-
-        <!-- mes servives  -->
-
+        <!--Fin de la présentation-->
+        
+        <!-- mes services  -->
         <section class="services container">
             <div class="title-wrapper">
                 <h2 class="centre"  >Mes services</h2>
@@ -86,27 +87,32 @@
                 <a href=""  class="text"><p>Concévoir des logiciels informatiques</p></a>
             </div>
         </section>
+        <!-- Fin de mes services -->
 
         <!-- mes realisations  -->
         <section class="container">
-            <h2 >Mes réalisations <!--Lien sur github--></h2>
-           <p>Grâce à mes compétences en informatique ,J'ai réalisé quelques
-              projets que je trouve important de paratager avec vous.
-              En cliquant les liens suivants, vous pourrez consulter mes accomplissements.
-           </p>
-             
-        
-            <a href="https://satellite7.github.io/Gestionnaire_d_t-ches/" class="sitepro"> <img src="assets/réalisation.webp" alt="" class="imagefin"> </a>
-            <a href=""class="sitepro"><img src="assets/réalisation.webp" alt="" class="imagefin"> </a> 
-            <a href="" class="sitepro"><img src="assets/réalisation.webp" alt="" class="imagefin"></a> 
-              
+            <h2 >Mes réalisations </h2><!--Lien sur github-->
+            <p>
+                Grâce à mes compétences en informatique ,J'ai réalisé quelques
+                projets que je trouve important de paratager avec vous.
+                En cliquant les liens suivants, vous pourrez consulter mes accomplissements.
+            </p>
+                
+            <div class="réalisation">
+                <a href="https://satellite7.github.io/Gestionnaire_d_t-ches/" class="sitepro"> <img src="assets/réalisation.webp" alt="" class="imagefin"> </a>
+                <a href=""class="sitepro"><img src="assets/réalisation.webp" alt="" class="imagefin"> </a> 
+                <a href="" class="sitepro"><img src="assets/réalisation.webp" alt="" class="imagefin"></a>                   
+            </div>
+            
             <!--lien vers portfolio</section> et les autres sites créés-->
 
         </section>
 
     </main>
+
+    
     <!-- La section commence ici  -->
-    <section class="dernier" id="Contact">
+    <section class="contact" id="contact">
         <div id="suivante">
         <p>Vous pouvez me contacter pour les différents services possibles que je propose.</p>
             <div>
@@ -143,7 +149,7 @@
             <button type="submit">Envoyer mon message</button></div>
             </div>
 
-        <div id="nn">
+        <div id="réseaux">
         <p> Pour me suivre sur les reseaux sociaux, vous devez cliquer sur les logos ci-dessous</p>
         <div>
             <a href="https://www.linkedin.com/home?originalSubdomain=fr"> <img src="assets/icons8-linkedin-50.png" alt="" class="mes-rs"></a>
