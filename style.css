@@ -2,7 +2,22 @@
     margin: 0; 
     margin: 4px;
     padding: revert;
-} 
+   /* essaie */
+
+box-sizing: border-box;
+/* essaie  */
+
+    overflow-block: ;
+}
+
+
+/* body, html {
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    padding: 1px;
+} */
 
 body{
     /* background-color: #65a05f; */
@@ -11,6 +26,20 @@ body{
 
 }
 
+#image{
+    /* width: 99%; 
+    width: 365%; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    width: 99%; 
+    width: 365%;
+    height: 50%;
+    border-radius: 90px;
+}  
+
+
+
 h1{ 
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
@@ -18,7 +47,12 @@ h1{
     font-style: normal;
   }
     
-    
+ /* #icon{
+    background-color: black;
+    border-radius: 50%;
+ } */
+
+
 
 nav{
   display: flex;
@@ -30,6 +64,7 @@ nav{
   width: 100%;
   padding: 0;
   margin: 0;
+  height: 15%;
 }
 main{
     padding-left: 40px;
@@ -47,7 +82,7 @@ main{
   display: flex;
   justify-content: space-evenly;
   text-decoration: none;
-  color:white;
+  color:rgb(237, 232, 232);
   background-color: rgb(15, 15, 13);
   font-size: 16px;
   border-radius: 90px;
@@ -59,13 +94,13 @@ main{
 
 .navlink{
  text-decoration: none;
- color: #6a713c;
+ color: #deed7c;
 }
 
 .hero{
     display: flex;
     justify-content: center;
-    /* background-color: #65a05f; */
+   /* background-color: #65a05f;  */
     height: 80vh;
     align-items: center;
 }
@@ -75,11 +110,12 @@ main{
     text-align: center;
     align-items: center;
     max-width: 640px;
-    gap: 12px;
+    gap: 12px;   
 }
+
 .btn-primary{
     text-decoration: none;
-    color: #c6b47e;
+    color: #deed7c;
     background-color: #427741;
     font-size: 16px;
     text-wrap: nowrap;
@@ -102,27 +138,41 @@ main{
     .presentation-content{
     }
    img{
-    width: 50%;}
+    width: 50%;
+       
+          width: 103%;
+          justify-content: center;
+          align-items: center;
+        }
 }
 
 .services-card-wrapper{
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
+    text-decoration: none;
     p{
         background-color: #527947;
-        width: 141px;
+        width: 160px;
+        height: 160px;
         text-align: center;
         align-content: center;
-        padding: 6px;
+        padding: 36px;
         border-radius: 4px;
-        box-shadow: 0 0 20px #2cb4891c;
-       color: rgb(162, 178, 173);
-
+        box-shadow: 0 0 20px #4d4140cc;
+       color: rgb(227, 230, 223);
+        
     }
 }
 
 
+
+
+
+
+.text{
+    text-decoration: none;
+}
 
  .dernier { 
   display: flex;
@@ -164,13 +214,23 @@ main{
 }
 
 
+.sitepro{
+
+    text-decoration: none;
+    color: hsla(191, 69%, 70%, 0.594);
+}
+
+.imagefin{
+
+    width: 30%;
+    height: 60%;
+}
 
 
-
-
-
-
-
+ ul{
+    padding: revert;
+  margin: revert;
+ }
 
 /* @media screen and (min-width: 900px) {
     article {
